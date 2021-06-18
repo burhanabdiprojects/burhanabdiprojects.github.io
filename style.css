@@ -1,0 +1,490 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Source Sans Pro", Helvetica, sans-serif;
+scroll-behavior: smooth;
+}
+
+.mainmenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background: none;
+    position: fixed;
+    color: white;
+    z-index: 1;
+}
+
+.mainmenu ul{
+    list-style-type: none;
+}
+
+.mainmenu ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.mainmenu a{
+    text-decoration: none;
+    color: white;
+}
+
+.links{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links a{
+    border: 1px solid white;
+    padding: 12px 40px;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.links a:hover{
+    background-color: white;
+    color:black;
+}
+
+.mainbanner {
+    width: 100%;
+    background-image: url("img/bannerbg.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+    padding-bottom: 100px;
+}
+
+.mainbanner h1, .mainbanner p{
+    width: 100%;
+    text-align: center;
+}
+
+.bioholder{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 650px;
+    justify-content: center;
+}
+
+#bio{
+    padding: 50px 0;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#bio h1, #bio p {
+    margin: 10px auto;
+    max-width: 80%;
+}
+
+.greyspace{
+    width: 100%;
+    height: 820px;
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 600px;
+    z-index: -2;
+}
+
+.skillsholder{
+    position: absolute;
+    top: 1250px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 30px auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 30px;
+}
+
+#skills{
+    width: 49%;
+    height: auto;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#skills h2{
+    margin-bottom: 10px;
+}
+
+.skillsimg{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.skillsrow{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+
+.skillsimghold{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.skillsimghold img{
+    max-height: 80px;
+}
+
+.skilllisthold{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.skilllist{
+    width: 45%;
+}
+
+.buildings2{
+    width: 100%;
+    height: 1170px;
+    position: absolute;
+    background-image: url("img/buildings2.jpg");
+    background-size: cover;
+    top: 1205px;
+    z-index: -1;   
+}
+
+#projects{
+    background-color: white;
+    width: 100%;
+    min-height: 300px;
+    margin: 1075px auto 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.intro{
+    width: 100%;
+    height: auto;
+    margin: 30px 0 10px;
+}
+.intro h2, .intro p{
+    width: 100%;
+    text-align: center;
+}
+
+.projectshold{
+    width: 80%;
+    border-radius: 5px;
+    height: auto;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projectimg, .projectinfo {
+    width: 49%;
+    height: 100%;
+}
+
+.projectimg img {
+border-radius: 4px;
+}
+#findanime{
+}
+
+#nac{
+}
+
+#topboarders{
+}
+
+.projectbuttons{
+    color: black;
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    margin-top: 60px;
+
+}
+
+.projectbuttons a{
+    border: solid 1px black;
+    text-decoration: none;
+    color: black;
+    padding: 8px 30px;
+}
+
+.btn{
+    width: 33%;
+}
+
+.projectbuttons a:hover{
+    background-color: black;
+    color: white;
+}
+
+.projectinfo p, .projectinfo ul{
+    margin: 10px auto;
+}
+
+.projectinfo ul{
+    margin-left: 30px;
+}
+
+#contact{
+    background-color: #e6e6e6;
+    color: black;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding: 50px 0 50px 25px;
+}
+
+.contacttitle{
+width: 20%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+.contacttitle p{
+width: 100%;
+text-align: center;
+}
+
+.contactinfo{
+width: 79%;
+}
+
+.iconbox{
+    height: 16px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon{
+    width: 20px;
+    height: 100%;
+}
+
+.icon img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#linkedin{
+ 
+}
+
+#github{
+
+}
+
+.topspacing{
+    margin-top: 15px;
+}
+
+@media (min-width: 800px){
+
+.mobileonly {
+    display: none !important;
+}
+
+}
+
+
+@media (max-width: 800px){
+
+p, li{
+    font-size: 14px;
+}
+
+.mainbanner p{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.links{
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links a{
+    border: 1px solid white;
+    padding: 12px 40px;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+#bio{
+    padding: 50px 0;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.greyspace{
+    width: 100%;
+    height: 1000px;
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 600px;
+    z-index: -2;
+}
+
+#skills{
+    width: 100%;
+}
+
+.skillsimg{
+    width: 100%;
+}
+
+.skillsholder{
+    flex-wrap: wrap;
+    top: 1380px;
+}
+
+.buildings2{
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    background-image: url("img/buildings2.jpg");
+    background-size: cover;
+    top: 1340px;
+    z-index: -1;   
+}
+
+#projects{
+    background-color: white;
+    min-height: 300px;
+    margin: 1550px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 50px;
+}
+
+.projectshold{
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectimg, .projectinfo {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.dividerspace{
+    height: 30px;
+    width: 100%;
+    border: none;
+}
+
+.projectimg img {
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.projectbuttons{
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 45px;
+
+}
+
+.projectbuttons a{
+    border: solid 1px black;
+    text-decoration: none;
+    color: black;
+    padding: 8px 30px;
+
+}
+
+.prjbtnhold{
+    width: 35%;
+    display: flex;
+    height: auto;
+    justify-content: left;
+}
+
+.btn{
+    width: auto;
+}
+
+.projectbuttons a:hover{
+    background-color: black;
+    color: white;
+}
+
+.projectinfo p, .projectinfo ul{
+    margin: 10px auto;
+}
+
+.projectinfo ul{
+    margin-left: 30px;
+}
+
+.nomobile{
+    display: none !important;
+}
+
+}
