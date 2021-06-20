@@ -319,7 +319,7 @@ width: 79%;
     margin-top: 15px;
 }
 
-@media (min-width: 800px){
+@media (min-width: 801px){
 
 .mobileonly {
     display: none !important;
@@ -388,23 +388,23 @@ p, li{
 
 .skillsholder{
     flex-wrap: wrap;
-    top: 1380px;
+    top: 1200px;
 }
 
 .buildings2{
     width: 100%;
-    height: 1200px;
+    height: 1250px;
     position: absolute;
     background-image: url("img/buildings2.jpg");
     background-size: cover;
-    top: 1340px;
+    top: 1150px;
     z-index: -1;   
 }
 
 #projects{
     background-color: white;
     min-height: 300px;
-    margin: 1550px auto 0;
+    margin: 1275px auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -487,4 +487,70 @@ p, li{
     display: none !important;
 }
 
+}
+
+
+@media (max-width: 420px){
+
+    .skillsholder{
+        flex-wrap: wrap;
+        top: 1380px;
+    }
+    
+    .buildings2{
+        width: 100%;
+        height: 1250px;
+        position: absolute;
+        background-image: url("img/buildings2.jpg");
+        background-size: cover;
+        top: 1350px;
+        z-index: -1;   
+    }
+
+    #projects{
+        background-color: white;
+        min-height: 300px;
+        margin: 1538px auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px 0 50px;
+    }
+
+    .nomobile{
+        display: none !important;
+    }
+}
+
+@media (max-width: 376px){
+    .skillsholder{
+        flex-wrap: wrap;
+        top: 1380px;
+    }
+    
+    .buildings2{
+        width: 100%;
+        height: 1250px;
+        position: absolute;
+        background-image: url("img/buildings2.jpg");
+        background-size: cover;
+        top: 1370px;
+        z-index: -1;   
+    }
+
+    #projects{
+        background-color: white;
+        min-height: 300px;
+        margin: 1550px auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px 0 50px;
+    }
+
+    .nomobile{
+        display: none !important;
+    }
 }
