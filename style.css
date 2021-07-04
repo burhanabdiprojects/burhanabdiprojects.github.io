@@ -306,7 +306,16 @@ width: 79%;
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 900px){
+.projectbuttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+}
+
+@media (max-width: 700px){
+
 
 p, li{
     font-size: 14px;
@@ -371,7 +380,7 @@ p, li{
 }
 
 .projectshold{
-    width: 80%;
+    width: 60%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -380,7 +389,7 @@ p, li{
 }
 
 .projectimg, .projectinfo {
-    width: 100%;
+    width: auto;
     height: 100%;
     display: block;
 }
@@ -444,6 +453,8 @@ p, li{
     display: none !important;
 }
 
+
+
 }
 
 
@@ -493,7 +504,6 @@ p, li{
     .skillsholder{
         flex-wrap: wrap;
     }
-    
 
 
     #projects{
