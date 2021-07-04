@@ -59,7 +59,7 @@ scroll-behavior: smooth;
 .mainbanner {
     width: 100%;
     background-image: url("img/bannerbg.jpg");
-    height: 700px;
+    height: 600px;
     background-size: cover;
     background-position: center;
     color: white;
@@ -68,8 +68,7 @@ scroll-behavior: smooth;
     flex-wrap: wrap;
     align-content: center;
     z-index: -1;
-    clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
-    padding-bottom: 100px;
+
 }
 
 .mainbanner h1, .mainbanner p{
@@ -80,9 +79,9 @@ scroll-behavior: smooth;
 .bioholder{
     width: 100%;
     display: flex;
-    position: absolute;
-    top: 650px;
     justify-content: center;
+    background-color: #e6e6e6;
+    padding: 70px 0;
 }
 
 #bio{
@@ -100,22 +99,18 @@ scroll-behavior: smooth;
     max-width: 80%;
 }
 
-.greyspace{
+.skillsouter{
+    background-image: url("img/buildings2.jpg");
+    background-size: cover;
     width: 100%;
-    height: 820px;
-    background-color: #e6e6e6;
-    position: absolute;
-    top: 600px;
-    z-index: -2;
+    height: auto;
+    padding: 70px 0;
 }
-
 .skillsholder{
-    position: absolute;
-    top: 1250px;
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: 30px auto;
+    margin: 0 auto;
     left: 0;
     right: 0;
     background-color: white;
@@ -172,31 +167,21 @@ scroll-behavior: smooth;
     width: 45%;
 }
 
-.buildings2{
-    width: 100%;
-    height: 1170px;
-    position: absolute;
-    background-image: url("img/buildings2.jpg");
-    background-size: cover;
-    top: 1205px;
-    z-index: -1;   
-}
 
 #projects{
     background-color: white;
     width: 100%;
     min-height: 300px;
-    margin: 1075px auto 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 30px 0;
+    padding: 70px 0 40px;
 }
 
 .intro{
     width: 100%;
     height: auto;
-    margin: 30px 0 10px;
+    margin: 0 0 10px;
 }
 .intro h2, .intro p{
     width: 100%;
@@ -220,14 +205,7 @@ scroll-behavior: smooth;
 
 .projectimg img {
 border-radius: 4px;
-}
-#findanime{
-}
-
-#nac{
-}
-
-#topboarders{
+max-width: 100%;
 }
 
 .projectbuttons{
@@ -369,14 +347,6 @@ p, li{
     border-radius: 5px;
 }
 
-.greyspace{
-    width: 100%;
-    height: 1000px;
-    background-color: #e6e6e6;
-    position: absolute;
-    top: 600px;
-    z-index: -2;
-}
 
 #skills{
     width: 100%;
@@ -388,34 +358,21 @@ p, li{
 
 .skillsholder{
     flex-wrap: wrap;
-    top: 1180px;
-}
-
-.buildings2{
-    width: 100%;
-    height: 1250px;
-    position: absolute;
-    background-image: url("img/buildings2.jpg");
-    background-size: cover;
-    top: 1150px;
-    z-index: -1;   
 }
 
 #projects{
     background-color: white;
     min-height: 300px;
-    margin: 1255px auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px 0 50px;
+    padding: 70px 0 40px;
 }
 
 .projectshold{
     width: 80%;
     height: auto;
-    margin: 20px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -494,28 +451,17 @@ p, li{
 
     .skillsholder{
         flex-wrap: wrap;
-        top: 1380px;
     }
     
-    .buildings2{
-        width: 100%;
-        height: 1250px;
-        position: absolute;
-        background-image: url("img/buildings2.jpg");
-        background-size: cover;
-        top: 1350px;
-        z-index: -1;   
-    }
 
     #projects{
         background-color: white;
         min-height: 300px;
-        margin: 1538px auto 0;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 30px 0 50px;
+        padding: 70px 0 40px;
     }
 
     .nomobile{
@@ -526,28 +472,16 @@ p, li{
 @media (max-width: 376px){
     .skillsholder{
         flex-wrap: wrap;
-        top: 1380px;
-    }
-    
-    .buildings2{
-        width: 100%;
-        height: 1250px;
-        position: absolute;
-        background-image: url("img/buildings2.jpg");
-        background-size: cover;
-        top: 1370px;
-        z-index: -1;   
     }
 
     #projects{
         background-color: white;
         min-height: 300px;
-        margin: 1550px auto 0;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 30px 0 50px;
+        padding: 70px 0 40px;
     }
 
     .nomobile{
@@ -558,28 +492,18 @@ p, li{
 @media (min-width: 1281px) {
     .skillsholder{
         flex-wrap: wrap;
-        top: 1220px;
     }
     
-    .buildings2{
-        width: 100%;
-        height: 1250px;
-        position: absolute;
-        background-image: url("img/buildings2.jpg");
-        background-size: cover;
-        top: 1170px;
-        z-index: -1;   
-    }
+
 
     #projects{
         background-color: white;
         min-height: 300px;
-        margin: 1040px auto 0;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 30px 0 50px;
+        padding: 70px 0 40px;
     }
 }
 
