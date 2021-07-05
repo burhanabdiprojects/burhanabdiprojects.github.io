@@ -306,11 +306,15 @@ width: 79%;
 }
 
 
-@media (max-width: 900px){
+@media (min-width: 700px) and (max-width: 900px){
 .projectbuttons{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.mobileonly {
+    display: none !important;
 }
 }
 
@@ -447,6 +451,12 @@ p, li{
 
 .projectinfo ul{
     margin-left: 30px;
+}
+
+.projectbuttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nomobile{
